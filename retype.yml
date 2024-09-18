@@ -52,7 +52,7 @@ footer:
   links:                      # A list of links to include in the footer
                               # See also: links
     - text: License           # The text to use for the link
-      link: ./LICENSE.md        # Point to an internal file or external URL
+      link: ./LICENSE        # Point to an internal file or external URL
 
 # -----------------------------------------------------------------------------
 
