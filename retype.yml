@@ -33,7 +33,7 @@ branding:
 links:                        # Custom links to add to the top bar
                               # See also: footer.links
   - text: Home                # The text to use for the link
-    link: ./src/index.md  # Link to an internal file or external URL
+    link: /src/index.md  # Link to an internal file or external URL
     icon: ':house:'
   - text: Main Website
     link: https://www.is-a.dev # Link to an internal file
@@ -63,7 +63,7 @@ cache:
 
 edit:
   repo: "https://github.com/CuteDog5695/is-a-dev-docs"                    # The URL to source files for this project
-  base: ""                    # Optional base path to a directory within repo
+  base: "/src"                    # Optional base path to a directory within repo
   branch: "main"                  # Point to a custom branch within the repo
   label: "Edit this page"     # A custom label for the generated link
 
