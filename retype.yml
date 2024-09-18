@@ -19,8 +19,8 @@ url: cutedog5695.github.io/docs
 
 branding:
   title: Example              # Your custom website title; keep it short
-  logo: /img/favicon.ico             # Path to a logo file
-  logoDark: /logo-dark.png    # Path to a logo file to use in dark mode
+  logo: /img/logo.png             # Path to a logo file
+  logoDark: /img/logo.png    # Path to a logo file to use in dark mode
   logoAlign: right            # Align the logo to the right or the left
   label: Docs                 # Optional label
                               # To remove the label, remove this config
@@ -34,11 +34,12 @@ branding:
 links:                        # Custom links to add to the top bar
                               # See also: footer.links
   - text: Home                # The text to use for the link
-    link: https://example.com # Link to an internal file or external URL
-  - text: API
-    link: /getting-started.md # Link to an internal file
-    icon: gear                # A custom icon name, :emoji:, <svg>, or
-                              # a path to a file
+    link: index.md  # Link to an internal file or external URL
+  - text: Main Website
+    link: https://www.is-a.dev # Link to an internal file
+    icon: gear # A custom icon name, :emoji:, <svg>, or a path to a file
+  - text: Repo:
+    link: https://github.com/is-a-dev/register
     iconAlign: left           # Icon alignment, to the left or right
     target: blank             # Custom target
                               # Use "blank" to open link in a new window
