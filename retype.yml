@@ -38,7 +38,7 @@ links:                        # Custom links to add to the top bar
   - text: Main Website
     link: https://www.is-a.dev # Link to an internal file
     icon: gear # A custom icon name, :emoji:, <svg>, or a path to a file
-  - text: Repo:
+  - text: Repo
     link: https://github.com/is-a-dev/register
     iconAlign: left           # Icon alignment, to the left or right
     target: blank             # Custom target
