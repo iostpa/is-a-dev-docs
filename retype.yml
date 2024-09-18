@@ -18,16 +18,17 @@ url: cutedog5695.github.io/docs
 # -----------------------------------------------------------------------------
 
 branding:
-  title: Example              # Your custom website title; keep it short
+  title: is-a.dev # Your custom website title; keep it short
+  label: Docs
   logo: /img/logo.png             # Path to a logo file
   logoDark: /img/logo.png    # Path to a logo file to use in dark mode
   logoAlign: right            # Align the logo to the right or the left
-  label: Docs                 # Optional label
+                              # Optional label
                               # To remove the label, remove this config
   colors:
     label:                    # Label colors
       text: "#ffffff"         # Custom color for the label text
-      background: "#ff0000"   # Custom color for the label background
+      background: "#9d00ff"   # Custom color for the label background
 
 # -----------------------------------------------------------------------------
 
