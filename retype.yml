@@ -61,11 +61,6 @@ cache:
 
 # -----------------------------------------------------------------------------
 
-cname: example.com            # The CNAME file value
-                              # or, false to not create a CNAME file
-
-# -----------------------------------------------------------------------------
-
 edit:
   repo: ""                    # The URL to source files for this project
   base: ""                    # Optional base path to a directory within repo
