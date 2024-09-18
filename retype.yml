@@ -33,7 +33,7 @@ branding:
 links:                        # Custom links to add to the top bar
                               # See also: footer.links
   - text: Home                # The text to use for the link
-    link: /src/index.md  # Link to an internal file or external URL
+    link: index.md  # Link to an internal file or external URL
     icon: ':house:'
   - text: Main Website
     link: https://www.is-a.dev # Link to an internal file
