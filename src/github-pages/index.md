@@ -1,3 +1,9 @@
+---
+icon: mark-github
+tags:
+  - guides
+---
+
 # Github Pages
 # Setting up GitHub pages with is-a.dev subdomain
 
