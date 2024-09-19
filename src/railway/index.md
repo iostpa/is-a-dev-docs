@@ -1,5 +1,5 @@
 ---
-icon: /src/img/railway.svg
+icon: /img/railway.svg
 tags:
   - guides
 ---

@@ -1,5 +1,5 @@
 ---
-icon: /src/img/replit.svg
+icon: /img/replit.svg
 tags:
   - guides
 ---

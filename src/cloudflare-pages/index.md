@@ -1,5 +1,5 @@
 ---
-icon: /src/img/cloudflare.svg
+icon: /img/cloudflare.svg
 tags:
   - guides
 ---

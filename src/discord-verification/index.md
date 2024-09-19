@@ -1,5 +1,5 @@
 ---
-icon: /src/img/discord.svg
+icon: /img/discord.svg
 tags:
   - guides
 ---

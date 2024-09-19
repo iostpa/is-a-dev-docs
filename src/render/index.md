@@ -1,5 +1,5 @@
 ---
-icon: /src/img/render.svg
+icon: /img/render.svg
 tags:
   - guides
 ---

@@ -1,5 +1,5 @@
 ---
-icon: /src/img/hashnode.svg
+icon: /img/hashnode.svg
 tags:
   - guides
 ---

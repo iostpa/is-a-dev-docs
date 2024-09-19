@@ -1,5 +1,5 @@
 ---
-icon: /src/img/vercel.svg
+icon: /img/vercel.svg
 tags:
   - guides
 ---

@@ -1,5 +1,5 @@
 ---
-icon: /src/img/netlify.svg
+icon: /img/netlify.svg
 tags:
   - guides
 ---
