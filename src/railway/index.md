@@ -1,3 +1,8 @@
+---
+icon: /src/img/railway.svg
+tags:
+  - guides
+---
 # Railway
 # Setting up is-a.dev with Railway
 ## Getting the CNAME Record

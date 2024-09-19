@@ -1,3 +1,9 @@
+---
+icon: /src/img/cloudflare.svg
+tags:
+  - guides
+---
+
 # Cloudflare Pages
 # Setting up Cloudflare Pages with is-a-dev subdomain
 

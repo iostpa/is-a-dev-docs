@@ -1,3 +1,8 @@
+---
+icon: /src/img/replit.svg
+tags:
+  - guides
+---
 # Replit
 # Setting up Replit with your is-a.dev subdomain
 

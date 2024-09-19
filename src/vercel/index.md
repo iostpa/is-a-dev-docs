@@ -1,3 +1,8 @@
+---
+icon: /src/img/vercel.svg
+tags:
+  - guides
+---
 # Vercel
 # Setting up Vercel with is-a.dev subdomain
 

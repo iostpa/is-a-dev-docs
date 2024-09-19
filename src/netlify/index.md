@@ -1,3 +1,8 @@
+---
+icon: /src/img/netlify.svg
+tags:
+  - guides
+---
 # Netlify
 # Setting up Netlify with is-a.dev Subdomain
 

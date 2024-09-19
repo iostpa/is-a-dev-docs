@@ -1,3 +1,8 @@
+---
+icon: /src/img/render.svg
+tags:
+  - guides
+---
 # Render
 # Setting up Render with is-a.dev Subdomain
 
