@@ -1,9 +1,10 @@
 ---
 icon: /img/netlify.svg
+label: Netlify
 tags:
   - guides
 ---
-# Netlify
+
 # Setting up Netlify with is-a.dev Subdomain
 
 This guide will walk you through the process of setting up a Netlify deployment and pointing your is-a.dev subdomain to it.

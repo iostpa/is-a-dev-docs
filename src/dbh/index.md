@@ -1,4 +1,7 @@
-# DanBot Hosting
+---
+label: DanBot Hosting
+---
+
 # Setting up DanBot Hosting with is-a.dev subdomain
 
 This guide will walk you through the process of setting up a DanBot Hosting site and pointing your is-a.dev subdomain to it.

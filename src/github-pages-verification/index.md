@@ -1,4 +1,7 @@
-# Github Pages Verification
+---
+label: Github Pages Verification
+---
+
 # Verify your is-a.dev Domain with GitHub Pages
 
 ## Get your verification string

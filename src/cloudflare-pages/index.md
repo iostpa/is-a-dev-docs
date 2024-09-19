@@ -1,10 +1,10 @@
 ---
+label: Cloudflare Pages
 icon: /img/cloudflare.svg
 tags:
   - guides
 ---
 
-# Cloudflare Pages
 # Setting up Cloudflare Pages with is-a-dev subdomain
 
 This guide will walk you through the process of setting up a Cloudflare Pages site and pointing your is-a.dev subdomain to it.

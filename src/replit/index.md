@@ -1,9 +1,10 @@
 ---
 icon: /img/replit.svg
+label: Replit
 tags:
   - guides
 ---
-# Replit
+
 # Setting up Replit with your is-a.dev subdomain
 
 ## Creating a project

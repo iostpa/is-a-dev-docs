@@ -1,5 +1,6 @@
 ---
 icon: /img/hashnode.svg
+label: Hashnode
 tags:
   - guides
 ---

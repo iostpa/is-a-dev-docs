@@ -1,10 +1,10 @@
 ---
 icon: mark-github
+label: Github Pages
 tags:
   - guides
 ---
 
-# Github Pages
 # Setting up GitHub pages with is-a.dev subdomain
 
 This guide will walk you through the process of setting up a GitHub Pages site and pointing your is-a.dev subdomain to it.

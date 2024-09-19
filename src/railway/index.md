@@ -1,9 +1,10 @@
 ---
 icon: /img/railway.svg
+label: Railway
 tags:
   - guides
 ---
-# Railway
+
 # Setting up is-a.dev with Railway
 ## Getting the CNAME Record
 1. Navigate to the [dashboard](https://railway.app/dashboard)

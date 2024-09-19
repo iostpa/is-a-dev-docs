@@ -1,4 +1,7 @@
-# Other services
+---
+label: Other services
+---
+
 # Setting up other services with is-a.dev
 
 ## Setting up records

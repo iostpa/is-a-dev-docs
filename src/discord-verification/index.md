@@ -1,9 +1,10 @@
 ---
 icon: /img/discord.svg
+label: Discord Domain Connection
 tags:
   - guides
 ---
-# Discord Domain Connection
+
 # Setting up Discord domain connection with your is-a.dev domain
 
 ## Get your verification string
