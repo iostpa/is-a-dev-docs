@@ -5,7 +5,7 @@ tags:
   - guides
 ---
 
-# Setting up Render with is-a.dev Subdomain
+## Setting up Render with is-a.dev Subdomain
 
 This guide will walk you through the process of setting up a Render deployment and pointing your is-a.dev subdomain to it.
 

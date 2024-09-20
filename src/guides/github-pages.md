@@ -5,7 +5,7 @@ tags:
   - guides
 ---
 
-# Setting up GitHub pages with is-a.dev subdomain
+## Setting up GitHub pages with is-a.dev subdomain
 
 This guide will walk you through the process of setting up a GitHub Pages site and pointing your is-a.dev subdomain to it.
 
