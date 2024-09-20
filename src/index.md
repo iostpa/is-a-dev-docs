@@ -1,4 +1,10 @@
-# How to Register
+---
+label: Welcome
+---
+# Welcome to is-a.dev docs!
+Here you will find Guides, our JSON file structure and more. If you want to add more stuff you can do it on [our repo!](https://github.com/CuteDog5695/is-a-dev-docs)
+
+## How to Register
 You can read about the domains JSON file structure [here](domain-structure/index.md).
 
 ## Guides
@@ -14,6 +20,11 @@ You can read about the domains JSON file structure [here](domain-structure/index
 - [Vercel](guides/vercel.md)
 - [DanBot Hosting](guides/dbh.md)
 - [Other Services](guides/other.md)
+
+## Useful
+ - [Domain Structure](useful/domain-structure.md)
+ - [FAQ](useful/faq.md)
+ - [Resources](useful/resources.md)
 
 ## Official Subdomains
 These are the subdomains run by the is-a.dev staff team. Do not trust any subdomain that is not on this list that claims to be us.
