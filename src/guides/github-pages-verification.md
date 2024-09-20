@@ -8,23 +8,23 @@ label: Github Pages Verification
 
 1. Open GitHub, press on your profile icon on the top right, and press `Settings`.
 
-<img src="../img/github_pages_verification_step_1.png" height="259">
+![1]("../img/github_pages_verification_step_1.png")
 
 2. Press `Pages`.
 
-<img src="../img/github_pages_verification_step_2.png" height="259">
+![2]("../img/github_pages_verification_step_2.png")
 
 3. Press `Add a domain`.
 
-<img src="../img/github_pages_verification_step_3.png" height="259">
+![3]("../img/github_pages_verification_step_3.png")
 
 4. In the field that appears, type your is-a.dev domain name (e.g. `myname.is-a.dev`) and press `Add domain`.
 
-<img src="../img/github_pages_verification_step_4.png" height="259">
+![4]("../img/github_pages_verification_step_4.png")
 
 5. Copy the hostname and the verification string.
 
-<img src="../img/github_pages_verification_step_5.png" height="259">
+![5]("../img/github_pages_verification_step_5.png")
 
 ## Create the domain file
 
