@@ -9,10 +9,10 @@ tags:
 
 This guide will walk you through the process of setting up a Netlify deployment and pointing your is-a.dev subdomain to it.
 
-## Creating a Netlify Site
+### Creating a Netlify Site
 First, you'll need to create a site on Netlify. Follow the instructions in the [Netlify Docs](https://docs.netlify.com/).
 
-## Creating the Domain File
+### Creating the Domain File
 Create a JSON file inside the `domains` directory (`domains/<subdomain>.json`) with the following content and submit a pull request:
 ```json
 {
@@ -37,6 +37,6 @@ Create a JSON file inside the `domains` directory (`domains/<subdomain>.json`) w
 - Navigate to **Site Settings > Domain Management > Custom Domains** and add `<subdomain>.is-a.dev` in the given field.
 - Netlify will provide a verification step, usually requiring you to add a DNS record. This step should be skipped if your subdomain is already pointing to Netlify's IP address (`75.2.60.5`).
 
-## Final Steps
+### Final Steps
 - Wait for the DNS changes to propagate. This can take from a few minutes to a couple of hours.
 - Your Netlify site should now be accessible at `<subdomain>.is-a.dev`.

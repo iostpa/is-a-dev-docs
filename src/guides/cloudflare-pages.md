@@ -9,7 +9,7 @@ tags:
 
 This guide will walk you through the process of setting up a Cloudflare Pages site and pointing your is-a.dev subdomain to it.
 
-## Create a Cloudflare Pages Site
+### Create a Cloudflare Pages Site
 
 First, you'll need to create a site on Cloudflare Pages. Follow the instructions in the [Cloudflare Pages Getting Started Guide](https://developers.cloudflare.com/pages/get-started/guide/).
 
@@ -17,7 +17,7 @@ First, you'll need to create a site on Cloudflare Pages. Follow the instructions
 
 Next, you'll need to point your is-a.dev subdomain to your Cloudflare Pages site. Follow the instructions in the [Cloudflare Pages Custom Domains Guide](https://developers.cloudflare.com/pages/platform/custom-domains/#add-a-custom-domain). Only follow the "Add a custom domain" section, then return to this guide for the next steps.
 
-## Create the Domain File
+### Create the Domain File
 
 In the `domains` directory, create a new JSON file for your subdomain (`domains/<subdomain>.json`) and submit a pull request. This file should contain the following:
 

@@ -10,10 +10,10 @@ tags:
 This guide will walk you through the process of setting up a GitHub Pages site and pointing your is-a.dev subdomain to it.
 
 
-## Creating a GitHub Pages repository
+### Creating a GitHub Pages repository
 First, you'll need to create a site on GitHub Pages. Follow the instructions in the [GitHub Pages Getting Started Guide](https://docs.github.com/en/pages/getting-started-with-github-pages).
 
-## Creating the domain file
+### Creating the domain file
 Create a JSON file inside `domains` directory (`domains/<subdomain>.json`) with the following content and submit a pull request:
 ```json 
 {

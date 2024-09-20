@@ -5,9 +5,9 @@ tags:
   - guides
 ---
 
-# Setting up Discord domain connection with your is-a.dev domain
+## Setting up Discord domain connection with your is-a.dev domain
 
-## Get your verification string
+### Get your verification string
 
 1. Open your Discord app and press `Settings`.
 <img src="../img/discord_step_1.png" height="259">
@@ -27,7 +27,7 @@ tags:
 1. Copy the verification string.
 <img src="../img/discord_step_6.png" height="259">
 
-## Create the domain file
+### Create the domain file
 
 Create a JSON file inside the `domains/` directory called `domains/_discord.example.json` with the following content:
 
@@ -43,6 +43,6 @@ Create a JSON file inside the `domains/` directory called `domains/_discord.exam
 } 
 ```
 
-# Configuration
+## Configuration
 After your pull request has been merged, repeat the steps to get the verification string and press the `Verify` button.
 If it shows any error such as `Unable to verify your domain`, try waiting a few minutes (sometimes up to 24 hours) as the DNS might have not been updated yet.
