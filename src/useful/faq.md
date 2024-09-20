@@ -1,5 +1,6 @@
 ---
 tags: useful
+icon: question
 ---
 
 # Frequently Asked Questions (FAQ)

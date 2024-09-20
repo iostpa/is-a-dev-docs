@@ -1,5 +1,6 @@
 ---
 tags: useful
+icon: list-unordered
 ---
 
 # Domain Structure

@@ -1,5 +1,6 @@
 ---
 tags: useful
+icon: /img/resources.png # https://www.flaticon.com/free-icons/resources
 ---
 
 # Resources
