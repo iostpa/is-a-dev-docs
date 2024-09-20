@@ -10,22 +10,22 @@ tags:
 ### Get your verification string
 
 1. Open your Discord app and press `Settings`.
-<img src="../img/discord_step_1.png" height="259">
+![1](../img/discord_step_1.png)
 
 1. Open the `Connections` section.
-<img src="../img/discord_step_2.png" height="259">
+![2](../img/discord_step_2.png)
 
 1. Press the `View more` button.
-<img src="../img/discord_step_3.png" height="259">
+![3](../img/discord_step_3.png)
 
 1. Click on the domain button (the globe icon).
-<img src="../img/discord_step_4.png" height="259">
+![4](../img/discord_step_4.png)
 
 1. In the field that appears type your is-a.dev domain name (e.g. `example.is-a.dev`).
-<img src="../img/discord_step_5.png" height="259">
+![5](../img/discord_step_5.png)
 
 1. Copy the verification string.
-<img src="../img/discord_step_6.png" height="259">
+![6](../img/discord_step_6.png)
 
 ### Create the domain file
 
