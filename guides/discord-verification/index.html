@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/is-a-dev-docs">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.780172751635">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.780173481436">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
 
     <!-- Primary Meta Tags -->
-    <title>Setting up Discord domain connection with your is-a.dev domain | is-a.dev docs</title>
-    <meta name="title" content="Setting up Discord domain connection with your is-a.dev domain | is-a.dev docs">
+    <title>Discord Domain Connection | is-a.dev docs</title>
+    <meta name="title" content="Discord Domain Connection | is-a.dev docs">
     <meta name="description" content="Open your Discord app and press Settings.">
 
     <!-- Canonical -->
@@ -20,24 +20,24 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://cutedog5695.github.io/is-a-dev-docs/guides/discord-verification/">
-    <meta property="og:title" content="Setting up Discord domain connection with your is-a.dev domain | is-a.dev docs">
+    <meta property="og:title" content="Discord Domain Connection | is-a.dev docs">
     <meta property="og:description" content="Open your Discord app and press Settings.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://cutedog5695.github.io/is-a-dev-docs/guides/discord-verification/">
-    <meta property="twitter:title" content="Setting up Discord domain connection with your is-a.dev domain | is-a.dev docs">
+    <meta property="twitter:title" content="Discord Domain Connection | is-a.dev docs">
     <meta property="twitter:description" content="Open your Discord app and press Settings.">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../img/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.6.0.780172751635" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.6.0.780173481436" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.780172751635" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.780173481436" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.780172751635" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.6.0.780172751635" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.780173481436" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.6.0.780173481436" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -224,17 +224,23 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="setting-up-discord-domain-connection-with-your-is-adev-domain" class="break-words">
+<doc-anchor-target id="discord-domain-connection" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#setting-up-discord-domain-connection-with-your-is-adev-domain">#</doc-anchor-trigger>
-        <span>Setting up Discord domain connection with your is-a.dev domain</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#discord-domain-connection">#</doc-anchor-trigger>
+        <span>Discord Domain Connection</span>
     </h1>
 </doc-anchor-target>
-<doc-anchor-target id="get-your-verification-string">
+<doc-anchor-target id="setting-up-discord-domain-connection-with-your-is-adev-domain">
     <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#setting-up-discord-domain-connection-with-your-is-adev-domain">#</doc-anchor-trigger>
+        <span>Setting up Discord domain connection with your is-a.dev domain</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="get-your-verification-string">
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#get-your-verification-string">#</doc-anchor-trigger>
         <span>Get your verification string</span>
-    </h2>
+    </h3>
 </doc-anchor-target>
 <ol>
 <li><p>Open your Discord app and press <code v-pre>Settings</code>.
@@ -257,10 +263,10 @@
 </li>
 </ol>
 <doc-anchor-target id="create-the-domain-file">
-    <h2>
+    <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#create-the-domain-file">#</doc-anchor-trigger>
         <span>Create the domain file</span>
-    </h2>
+    </h3>
 </doc-anchor-target>
 <p>Create a JSON file inside the <code v-pre>domains/</code> directory called <code v-pre>domains/_discord.example.json</code> with the following content:</p>
 <div class="codeblock-wrapper"><doc-codeblock>
@@ -275,10 +281,10 @@
 } </code></pre>
 </doc-codeblock></div>
 <doc-anchor-target id="configuration">
-    <h1>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#configuration">#</doc-anchor-trigger>
         <span>Configuration</span>
-    </h1>
+    </h2>
 </doc-anchor-target>
 <p>After your pull request has been merged, repeat the steps to get the verification string and press the <code v-pre>Verify</code> button.
 If it shows any error such as <code v-pre>Unable to verify your domain</code>, try waiting a few minutes (sometimes up to 24 hours) as the DNS might have not been updated yet.</p>
