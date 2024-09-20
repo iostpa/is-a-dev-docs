@@ -2,18 +2,18 @@
 You can read about the domains JSON file structure [here](domain-structure/index.md).
 
 ## Guides
-- [Cloudflare Pages](cloudflare-pages/index.md)
-- [Discord Domain Verification](discord-verification/index.md)
-- [GitHub Pages](github-pages/index.md)
-- [GitHub Pages Domain Verification](github-pages-verification/index.md)
-- [Hashnode Blogs](hashnode/index.md)
-- [Railway](railway/index.md)
-- [Replit](replit/index.md)
-- [Render](render/index.md)
-- [Netlify](netlify/index.md)
-- [Vercel](vercel/index.md)
-- [DanBot Hosting](dbh/index.md)
-- [Other Services](other/index.md)
+- [Cloudflare Pages](guides/cloudflare-pages.md)
+- [Discord Domain Verification](guides/discord-verification.md)
+- [GitHub Pages](guides/github-pages.md)
+- [GitHub Pages Domain Verification](guides/github-pages-verification.md)
+- [Hashnode Blogs](guides/hashnode.md)
+- [Railway](guides/railway.md)
+- [Replit](guides/replit.md)
+- [Render](guides/render.md)
+- [Netlify](guides/netlify.md)
+- [Vercel](guides/vercel.md)
+- [DanBot Hosting](guides/dbh.md)
+- [Other Services](guides/other.md)
 
 ## Official Subdomains
 These are the subdomains run by the is-a.dev staff team. Do not trust any subdomain that is not on this list that claims to be us.
