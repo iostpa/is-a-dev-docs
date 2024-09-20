@@ -1,6 +1,7 @@
 ---
 label: DanBot Hosting
 tags: guides
+icon: /img/dbh.jpeg
 ---
 
 # Setting up DanBot Hosting with is-a.dev subdomain
