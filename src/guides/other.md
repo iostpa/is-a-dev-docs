@@ -1,5 +1,6 @@
 ---
 label: Other services
+tags: guides
 ---
 
 # Setting up other services with is-a.dev

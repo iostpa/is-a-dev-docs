@@ -1,3 +1,7 @@
+---
+tags: useful
+---
+
 # Frequently Asked Questions (FAQ)
 
 ## Which records are supported?

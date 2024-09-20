@@ -1,3 +1,7 @@
+---
+tags: useful
+---
+
 # Resources
 
 This page provides a collection of resources to help you understand key concepts related to domain management, such as DNS, records, and more.

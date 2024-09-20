@@ -1,5 +1,6 @@
 ---
 label: Github Pages Verification
+tags: guides
 ---
 
 # Verify your is-a.dev Domain with GitHub Pages

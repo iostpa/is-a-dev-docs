@@ -1,5 +1,6 @@
 ---
 label: DanBot Hosting
+tags: guides
 ---
 
 # Setting up DanBot Hosting with is-a.dev subdomain
