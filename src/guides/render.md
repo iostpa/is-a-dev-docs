@@ -5,11 +5,11 @@ tags:
   - guides
 ---
 
-## Setting up Render with is-a.dev Subdomain
+# Setting up Render with is-a.dev Subdomain
 
 This guide will walk you through the process of setting up a Render deployment and pointing your is-a.dev subdomain to it.
 
-### Creating a Render Service
+## Creating a Render Service
 First, you'll need to create a service on Render. Follow the instructions in the [Render Docs](https://docs.render.com/).
 
 ### Creating the Domain File

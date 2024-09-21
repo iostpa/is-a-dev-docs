@@ -1,5 +1,6 @@
 ---
 label: Welcome
+icon: /img/hand-waving.svg
 ---
 # Welcome to is-a.dev docs!
 Here you will find Guides, our JSON file structure and more. If you want to add more stuff you can do it on [our repo!](https://github.com/CuteDog5695/is-a-dev-docs)

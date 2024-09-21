@@ -5,9 +5,9 @@ tags:
   - guides
 ---
 
-## Setting up Replit with your is-a.dev subdomain
+# Setting up Replit with your is-a.dev subdomain
 
-### Creating a project
+## Creating a project
 Follow the instructions in the [Replit Workspace Guide](https://docs.replit.com/programming-ide/introduction-to-the-workspace#how-to-create-a-repl) on how to create a project.
 
 ### Connect your repl to your is-a.dev subdomain

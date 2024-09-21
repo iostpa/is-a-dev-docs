@@ -35,7 +35,7 @@ Create a JSON file inside `domains` directory (`domains/<subdomain>.json`) with 
 - Check the **Enforce HTTPS** checkbox below the custom domain input.
 - Wait some time and your site should be live!
 
-## Verify your is-a.dev Domain with GitHub Pages
+## Verifying your is-a.dev Domain with GitHub Pages
 
 ### Get your verification string
 

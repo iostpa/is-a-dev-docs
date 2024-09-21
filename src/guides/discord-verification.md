@@ -5,9 +5,9 @@ tags:
   - guides
 ---
 
-## Setting up Discord domain connection with your is-a.dev domain
+# Setting up Discord domain connection with your is-a.dev domain
 
-### Get your verification string
+## Get your verification string
 
 1. Open your Discord app and press `Settings`.
 ![](../img/discord_step_1.png)

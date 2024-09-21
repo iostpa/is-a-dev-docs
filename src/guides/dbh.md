@@ -9,7 +9,7 @@ icon: /img/dbh.jpeg
 This guide will walk you through the process of setting up a DanBot Hosting site and pointing your is-a.dev subdomain to it.
 
 
-### Getting Proxy IP
+## Getting Proxy IP
 Execute the following command in [DanBot Hosting Discord server](https://discord.gg/dbh) in the #commands channel.
 ```
 dbh!server proxy
