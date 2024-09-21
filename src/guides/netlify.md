@@ -9,7 +9,7 @@ tags:
 
 This guide will walk you through the process of setting up a Netlify deployment and pointing your is-a.dev subdomain to it.
 
-### Creating a Netlify Site
+## Creating a Netlify Site
 First, you'll need to create a site on Netlify. Follow the instructions in the [Netlify Docs](https://docs.netlify.com/).
 
 ### Creating the Domain File
