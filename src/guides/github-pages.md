@@ -1,6 +1,6 @@
 ---
 icon: mark-github
-label: Github Pages
+label: GitHub Pages
 tags:
   - guides
 ---
