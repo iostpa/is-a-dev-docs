@@ -47,15 +47,6 @@ links:                        # Custom links to add to the top bar
 
 # -----------------------------------------------------------------------------
 
-footer:
-  copyright: "© All rights reserved." # A custom copyright statement
-  links:                      # A list of links to include in the footer
-                              # See also: links
-    - text: License           # The text to use for the link
-      link: ./LICENSE        # Point to an internal file or external URL
-
-# -----------------------------------------------------------------------------
-
 cache:
   busting: query              # Cache busting strategy
                               # Options: none | path | query (default)
@@ -83,7 +74,7 @@ exclude:                      # Files or folders to exclude from the build
 
 # -----------------------------------------------------------------------------
 
-favicon: /src/img/favicon.ico      # Path to a custom favicon, or
+favicon: ./src/img/favicon.ico      # Path to a custom favicon, or
                               # just put a favicon.ico in your project root
 
 # -----------------------------------------------------------------------------
