@@ -1,135 +1,60 @@
-# -----------------------------------------------------------------------------
-# Retype
-# -----------------------------------------------------------------------------
-
-input: ./src                     # Local path from this retype.yml file to the
-                              # root of your project content files
-                              # See also: output
-
-# -----------------------------------------------------------------------------
-
-output: .retype               # Custom path to the output directory
-                              # See also: input
-
-# -----------------------------------------------------------------------------
-
+input: ./src
+output: .retype
 url: cutedog5695.github.io/is-a-dev-docs
-
-# -----------------------------------------------------------------------------
-
 branding:
-  title: is-a.dev # Your custom website title; keep it short
+  title: is-a.dev
   label: Docs
-  logo: /img/logo.png         # Path to a logo file
-  logoDark: /img/logo.png    # Path to a logo file to use in dark mode
-  logoAlign: left            # Align the logo to the right or the left
+  logo: /img/logo.png
+  logoDark: /img/logo.png
+  logoAlign: left
   colors:
-    label:                    # Label colors
-      text: "#ffffff"         # Custom color for the label text
-      background: "#9d00ff"   # Custom color for the label background
-
-# -----------------------------------------------------------------------------
-
-links:                        # Custom links to add to the top bar
-                              # See also: footer.links
-  - text: Home                # The text to use for the link
-    link: index.md  # Link to an internal file or external URL
+    label:
+      text: "#ffffff"
+      background: "#9d00ff"
+links:
+  - text: Home
+    link: index.md
     icon: home
-  - text: Main Website
-    link: https://www.is-a.dev # Link to an internal file
-    icon: globe # A custom icon name, :emoji:, <svg>, or a path to a file
-  - text: Repo
+  - text: Website
+    link: https://www.is-a.dev
+    icon: globe
+  - text: Register
     link: https://github.com/is-a-dev/register
     icon: mark-github
-    iconAlign: left           # Icon alignment, to the left or right
-    target: blank             # Custom target
-                              # Use "blank" to open link in a new window
-
-# -----------------------------------------------------------------------------
-
+    iconAlign: left
+    target: blank
 cache:
-  busting: query              # Cache busting strategy
-                              # Options: none | path | query (default)
-
-# -----------------------------------------------------------------------------
-
+  busting: query # none | path | query
 edit:
-  repo: "https://github.com/CuteDog5695/is-a-dev-docs"                    # The URL to source files for this project
-  base: "/src"                    # Optional base path to a directory within repo
-  branch: "main"                  # Point to a custom branch within the repo
-  label: "Edit this page"     # A custom label for the generated link
-
-# -----------------------------------------------------------------------------
-
-editor:                       # Configure the page live editor functionality
-                              # that is only available during `retype start`
-  enabled: true               # false to disable and hide the live editor
-
-# -----------------------------------------------------------------------------
-
-exclude:                      # Files or folders to exclude from the build
-                              # See also: include
-  - "*_temp/"                 # Wildcards are valid
-  - "/src/temp.md"            # Exclude a specific file
-
-# -----------------------------------------------------------------------------
-
-favicon: /src/img/favicon.ico      # Path to a custom favicon, or
-                              # just put a favicon.ico in your project root
-
-# -----------------------------------------------------------------------------
-
+  repo: "https://github.com/CuteDog5695/is-a-dev-docs"
+  base: "/src"
+  branch: "main"
+  label: "Edit this page"
+editor:
+  enabled: true
+favicon: /src/img/favicon.ico
 generator:
-  recase: all                 # `none` to not recase any file or folder names
-                              # By default, all generated file and folder names
-                              # are generated in all lowercase
-
-# -----------------------------------------------------------------------------
-
-include:                      # Files or folders to include in the build
-                              # See also: exclude
-  - "*.py"                    # Wildcards are valid
-
-# -----------------------------------------------------------------------------
-
-markdown:                     # Markdown configuration options
-  lineBreaks: soft            # Switch between `soft` and `hard` line breaks
-
-# -----------------------------------------------------------------------------
-
+  recase: all
+include:
+  - "*.py"
+markdown:
+  lineBreaks: soft
 meta:
-  title: " | is-a.dev docs"         # Appended to the <title> element on all pages
-
-# -----------------------------------------------------------------------------
-
-search:                       # Custom configuration of the website search
+  title: " | is-a.dev docs"
+search:
   hotkeys:
-    - "/"                     # Keyboard key to set focus in the search field
-                              # Default is "k"
-  maxResults: 20              # Max number of search results to render
-  minChars: 2                 # Min characters required to trigger a search
-  mode: full                  # The search index creation mode
-                              # Options include: full | partial | basic
-  noResultsFoundMsg: "No results" # Message when no results are found
-  placeholder: Search         # Placeholder text used in the input field
-
-# -----------------------------------------------------------------------------
-
+    - "/"
+  maxResults: 20
+  minChars: 2
+  mode: full
+  noResultsFoundMsg: "No results"
+  placeholder: Search
 start:
-  open: false                 # Do not automatically open web browser on start
-
-# -----------------------------------------------------------------------------
-
-snippets:                     # Custom code snippets configuration
-                              # See: https://retype.com/components/code-snippet
-  lineNumbers:                # Language shortcodes to enable line numbering on
+  open: false
+snippets:
+  lineNumbers:
     - js
-    - none                    # `none` to disable line-numbering on snippets
-
-# -----------------------------------------------------------------------------
-
+    - none
 templating:
-  enabled: true               # Enable or disable the Retype content templating
-  liquid: false               # Is Liquid syntax {% ... %} enabled?
-                              # If true, Retype is incompatible with the
-                              # GitBook style of component configuration
+  enabled: true
+  liquid: false
