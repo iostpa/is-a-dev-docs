@@ -32,7 +32,7 @@ edit:
   label: "Edit this page"
 editor:
   enabled: true
-favicon: /src/img/favicon.ico
+favicon: favicon.ico
 generator:
   recase: all
 include:
