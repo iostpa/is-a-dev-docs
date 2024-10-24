@@ -60,7 +60,7 @@ We allow NS records for the following reasons and users:
   - Users who require a private zone, as they are using their home IP addresses behind Cloudflare (These cases will be carefully reviewed, as we understand some may claim to use a home IP address when they are not.)
   - Users with a lot of nested subdomains *may* be allowed to register NS records so they do not have to manage multiple files.
   - Aternos users (specifically Aternos, as they require NS records and you cannot modify DNS records under them).
-!!!
+!!!warning Note
 These guidelines are not set in stone and may change. You are not limited to fitting only one of the criteria above; use them as a general guide. [@wdhdev](https://github.com/wdhdev) personally review each NS record request.
 !!!
 
@@ -79,6 +79,6 @@ These guidelines are not set in stone and may change. You are not limited to fit
 5. **Submit a Pull Request:** Go to your forked repository on GitHub and open a pull request.
 
 6. **Wait for your PR to be merged:** After you have submitted your pull request, wait for it to be reviewed and merged. Once your pull request has been merged, your changes should be live!
-!!!
+!!!warning Warning
 Make sure to monitor your PR for reviews in case some changes are requested. Also note that it can take up to 48 hours in some cases for your changes to take effect after your PR is merged.
 !!!

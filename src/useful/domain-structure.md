@@ -164,7 +164,7 @@ Below are some examples for the given record types:
   }
 }
 ```
-!!!
+!!!warning Note
 Please refer to the [frequently asked questions](https://is-a.dev/docs/faq/) for clarification on what or who we allow NS records for. If you want a example on what we want as the reasonings, you can [checkout this PR](https://github.com/is-a-dev/register/pull/16758).
 !!!
 
