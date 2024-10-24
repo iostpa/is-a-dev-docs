@@ -60,8 +60,9 @@ We allow NS records for the following reasons and users:
   - Users who require a private zone, as they are using their home IP addresses behind Cloudflare (These cases will be carefully reviewed, as we understand some may claim to use a home IP address when they are not.)
   - Users with a lot of nested subdomains *may* be allowed to register NS records so they do not have to manage multiple files.
   - Aternos users (specifically Aternos, as they require NS records and you cannot modify DNS records under them).
-
-Note: These guidelines are not set in stone and may change. You are not limited to fitting only one of the criteria above; use them as a general guide. [@wdhdev](https://github.com/wdhdev) personally review each NS record request.
+!!!
+These guidelines are not set in stone and may change. You are not limited to fitting only one of the criteria above; use them as a general guide. [@wdhdev](https://github.com/wdhdev) personally review each NS record request.
+!!!
 
 *We reserve the right to deny NS records at our discretion.*
 
@@ -69,14 +70,15 @@ Note: These guidelines are not set in stone and may change. You are not limited 
 
 1. **Open your JSON file:** Navigate to the `domains` directory in your local repository and open the JSON file corresponding to your subdomain (`domains/<subdomain>.json`).
 
-1. **Make your changes:** Edit the JSON file (or delete) to reflect the changes you want to make.
+2. **Make your changes:** Edit the JSON file (or delete) to reflect the changes you want to make.
 
-1. **Commit your changes:** Once you've made your changes, commit them to your local repository.
+3. **Commit your changes:** Once you've made your changes, commit them to your local repository.
 
-1. **Push your changes:** Push your changes to your forked repository on GitHub.
+4. **Push your changes:** Push your changes to your forked repository on GitHub.
 
-1. **Submit a Pull Request:** Go to your forked repository on GitHub and open a pull request.
+5. **Submit a Pull Request:** Go to your forked repository on GitHub and open a pull request.
 
-1. **Wait for your PR to be merged:** After you have submitted your pull request, wait for it to be reviewed and merged. Once your pull request has been merged, your changes should be live!
-
-**Note:** Make sure to monitor your PR for reviews in case some changes are requested. Also note that it can take up to 48 hours in some cases for your changes to take effect after your PR is merged.
+6. **Wait for your PR to be merged:** After you have submitted your pull request, wait for it to be reviewed and merged. Once your pull request has been merged, your changes should be live!
+!!!
+Make sure to monitor your PR for reviews in case some changes are requested. Also note that it can take up to 48 hours in some cases for your changes to take effect after your PR is merged.
+!!!
