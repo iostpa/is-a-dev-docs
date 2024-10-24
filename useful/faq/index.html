@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/is-a-dev-docs">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.783058113133">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.783087783125">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -32,11 +32,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../img/logo.png" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.6.0.783058113133" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.6.0.783087783125" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.783058113133" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.783087783125" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.783058113133" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.783087783125" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -243,6 +243,9 @@
 <li>MX</li>
 <li>TXT</li>
 <li>URL (Redirection)</li>
+<li>NS (limited access)</li>
+<li>SRV</li>
+<li>CAA</li>
 </ul>
 <doc-anchor-target id="why-does-my-domain-still-redirect-to-the-is-a-dev-website">
     <h2>
@@ -328,6 +331,22 @@
     </h2>
 </doc-anchor-target>
 <p>Sure, but it needs to be a nested subdomain (mc.example.is-a.dev). You would normally use a A record for this.</p>
+<doc-anchor-target id="can-i-use-ns-records">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#can-i-use-ns-records">#</doc-anchor-trigger>
+        <span>Can I use NS records?</span>
+    </h2>
+</doc-anchor-target>
+<p>We allow NS records for the following reasons and users:</p>
+<ul>
+<li>is-a.dev maintainers</li>
+<li>Users who are using <strong>multiple</strong> Cloudflare (or similar providers&#x27;) services, which often require their own zones (e.g., DynDNS, cloudflared tunnels, etc.)</li>
+<li>Users who require a private zone, as they are using their home IP addresses behind Cloudflare (These cases will be carefully reviewed, as we understand some may claim to use a home IP address when they are not.)</li>
+<li>Users with a lot of nested subdomains <em>may</em> be allowed to register NS records so they do not have to manage multiple files.</li>
+<li>Aternos users (specifically Aternos, as they require NS records and you cannot modify DNS records under them).</li>
+</ul>
+<p>Note: These guidelines are not set in stone and may change. You are not limited to fitting only one of the criteria above; use them as a general guide. <a href="https://github.com/wdhdev">@wdhdev</a> personally review each NS record request.</p>
+<p><em>We reserve the right to deny NS records at our discretion.</em></p>
 <doc-anchor-target id="how-can-i-make-changes-to-my-is-adev-subdomain">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#how-can-i-make-changes-to-my-is-adev-subdomain">#</doc-anchor-trigger>
@@ -378,7 +397,7 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Domain Structure</span>
+                                                <span class="block mt-1">Domains JSON file</span>
                                             </span>
                                         </a>
                                     </div>
